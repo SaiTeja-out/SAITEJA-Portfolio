@@ -89,6 +89,26 @@
 								</button>
 							</a>
 
+  <!-- Fullscreen icon -->
+  <a href="#" onclick="toggleFullScreen()">
+    <li class="nav-item">
+      <i class="fa-solid fa-expand" style="color: #000000;"></i>
+    </li>
+  </a>
+
+  <script>
+    function toggleFullScreen() {
+      const doc = document.documentElement;
+
+      if (!document.fullscreenElement) {
+        doc.requestFullscreen().catch(err => {
+          alert(`Error attempting to enable full-screen mode: ${err.message}`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    }
+  </script>
 
 						</li>
 					</ul>
