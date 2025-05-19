@@ -54,7 +54,7 @@ Hello, I’m **Saiteja**, a dedicated full-stack developer based in India with o
 
 * Email: [saiteja@example.com](sait6902@gmail.com)
 * GitHub: [github.com/saiteja]([https://github.com/saiteja](https://github.com/SaiTeja-out))
-* LinkedIn: [linkedin.com/in/saiteja]([https://linkedin.com/in/saiteja](https://www.linkedin.com/in/saiteja-balareddypalli-a85930365 ))
+* LinkedIn: [linkedin.com/in/saiteja]([https://linkedin.com/in/saiteja](https://www.linkedin.com/in/saiteja-balareddypalli-a85930365)
 
 ---
 
