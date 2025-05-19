@@ -77,9 +77,32 @@
 						</li>
 						<li class="nav-item">
 							<a href="contact.html" class="nav-link">Contact</a>
-
-
-							<a href="about-dark.html">
+  						</li>
+						
+						 <!-- Fullscreen icon -->
+							  <a href="#" onclick="toggleFullScreen()">
+							    <li class="nav-item">
+							      <i class="fa-solid fa-expand" style="color: #000000;"></i>
+							    </li>
+							  </a>
+							
+							  <script>
+							    function toggleFullScreen() {
+							      const doc = document.documentElement;
+							
+							      if (!document.fullscreenElement) {
+							        doc.requestFullscreen().catch(err => {
+							          alert(`Error attempting to enable full-screen mode: ${err.message}`);
+							        });
+							      } else {
+							        document.exitFullscreen();
+							      }
+							    }
+							  </script>
+							
+							<!-- mode -->
+                                                       <li class="nav-item">
+							<a href="index-dark.html">
 								<button class="light">
 									Mode
 									<div class="arrow-wrapper">
@@ -87,9 +110,8 @@
 									</div>
 								</button>
 							</a>
+                                                      </li>
 
-
-						</li>
 					</ul>
 
 					<!-- Navbar Toggler -->
