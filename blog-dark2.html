@@ -79,37 +79,37 @@
                             <a href="contact-dark.html" class="nav-link">Contact</a>
                            </li>
                         
-					 <!-- Fullscreen icon -->
-						  <a href="#" onclick="toggleFullScreen()">
-						    <li class="nav-item">
-						      <i class="fa-solid fa-expand" style="color: #ffffff;"></i>
-						    </li>
-						  </a>
-						
-						  <script>
-						    function toggleFullScreen() {
-						      const doc = document.documentElement;
-						
-						      if (!document.fullscreenElement) {
-							doc.requestFullscreen().catch(err => {
-							  alert(`Error attempting to enable full-screen mode: ${err.message}`);
-							});
-						      } else {
-							document.exitFullscreen();
-						      }
-						    }
-						  </script>
-						
-						<!-- mode -->
-					       <li class="nav-item">
-						<a href="index-dark.html">
-							<button>
-								Mode
-								<div class="arrow-wrapper">
-									<div class="arrow"></div>
-								</div>
-							</button>
-						</a>
+		 <!-- Fullscreen icon -->
+			  <a href="#" onclick="toggleFullScreen()">
+			    <li class="nav-item">
+			      <i class="fa-solid fa-expand" style="color: #ffffff;"></i>
+			    </li>
+			  </a>
+			
+			  <script>
+			    function toggleFullScreen() {
+			      const doc = document.documentElement;
+			
+			      if (!document.fullscreenElement) {
+				doc.requestFullscreen().catch(err => {
+				  alert(`Error attempting to enable full-screen mode: ${err.message}`);
+				});
+			      } else {
+				document.exitFullscreen();
+			      }
+			    }
+			  </script>
+			
+			<!-- mode -->
+		       <li class="nav-item">
+			<a href="index-dark.html">
+				<button>
+					Mode
+					<div class="arrow-wrapper">
+						<div class="arrow"></div>
+					</div>
+				</button>
+			</a>
                       </li>
 
                     </ul>
